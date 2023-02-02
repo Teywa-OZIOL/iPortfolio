@@ -1127,37 +1127,19 @@ header .row {
 header .top-bar {
 	display: block;
 	background: #000000;
-	min-width: 220px;
+	min-width: 135px;
 	min-height: 66px;
 	position: absolute;
 	left: 90px;
 	top: 0;
 }
-header .logo {
-	float: left;
-	margin-left: 20px;
-	margin-right: 50px;
-	margin-top: 25px;
-	position: relative;
-}
-header .logo a {
-	display: block;
-	margin: 0;
-	padding: 0;
-	border: none;
-	font: 0/0 a;
-	text-shadow: none;
-	color: transparent;
-	width: 92px;
-	height: 15px;
-	background: url("../images/logo.png") no-repeat center;
-	background-size: 230px 25px;
-}
+
 
 /**
  * menu toggle - (_layout.css)
  * ------------------------------------------------------------------- 
  */
+
 .menu-toggle {
 	float: left;
 	width: 40px;
@@ -1247,6 +1229,28 @@ header .logo a {
 	transform: rotate(-45deg);
 }
 
+.menu-toggle2 {
+	float: right;
+	width: 25px;
+	height: 25px;
+	margin-right: 20px;
+	margin-top: 20.6px;
+	display: block;
+	position: relative;
+}
+
+.top-right {
+	float: left;
+	background: #000000;
+	width: 66px;
+	height: 66px;
+	left: 25px;
+	margin-top: 0px;
+	display: block;
+	position: relative;
+}
+
+
 /* navigation panel */
 #main-nav-wrap {
 	display: block;
@@ -1287,6 +1291,49 @@ header .logo a {
 	padding-left: 1rem;
 }
 .main-navigation li.current > a {
+	background: none;
+	color: #FF0077;
+}
+
+#main-nav-wrap2 {
+	display: block;
+	width: 100%;
+	font-family: "poppins-medium", sans-serif;
+	font-size: 1.5rem;
+	position: absolute;
+	top: 100%;
+	left: 0;
+}
+
+/* dropdown nav */
+.main-navigation2 {
+	background: #000000;
+	padding: 24px 30px 42px;
+	margin: 0;
+	width: 100%;
+	height: auto;
+	clear: both;
+	display: none;
+}
+.main-navigation2 > li {
+	display: block;
+	height: auto;
+	text-align: left;
+	padding: 0;
+}
+.main-navigation2 li a {
+	display: block;
+	color: #FFFFFF;
+	width: auto;
+	padding: 15px 0;
+	line-height: 16px;
+	border: none;
+}
+.main-navigation2 li a:hover {
+	color: #FF0077;
+	padding-left: 1rem;
+}
+.main-navigation2 li.current > a {
 	background: none;
 	color: #FF0077;
 }
