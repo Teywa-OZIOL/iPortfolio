@@ -134,7 +134,8 @@ h3, .h03 {
 	line-height: 1.5;
 }
 h4, .h04 {
-	font-size: 1.7rem;
+	font-size: 1rem;
+	color: rgba(255, 255, 255, 0.64);
 	line-height: 1.765;
 }
 h5, .h05 {
