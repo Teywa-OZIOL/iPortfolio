@@ -1656,7 +1656,7 @@ header .top-bar {
 .-info {
 	margin-top: 4.2rem;
 	margin-right: -30px;
-	margin-left: -30px;
+	margin-left: -20px;
 }
 .-info img {
 	height: 17.5rem;
@@ -1667,7 +1667,7 @@ header .top-bar {
 }
 .-info .lead {
 	text-align: left;
-	padding-left: 10rem;
+	padding-left: 18rem;
 }
 
 .about-content {
