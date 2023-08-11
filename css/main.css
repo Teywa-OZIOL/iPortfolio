@@ -1058,7 +1058,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 .grey-section p.lead {
 	color: #7d7d7d;
 }
-.section- {
+.section-intro {
 	max-width: 700px;
 	margin-left: auto;
 	margin-right: auto;
@@ -1066,14 +1066,14 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	margin-bottom: 3.6rem;
 	position: relative;
 }
-.section- h1 {
+.section-intro h1 {
 	font-family: "poppins-semibold", serif;
 	font-size: 3.6rem;
 	color: #313131;
 	line-height: 1.25;
 	margin-bottom: 1.2rem;
 }
-.section- h5 {
+.section-intro h5 {
 	color: #FF0077;
 	font-size: 1.6rem;
 	line-height: 1.875;
@@ -1087,24 +1087,24 @@ button::-moz-focus-inner, input::-moz-focus-inner {
  * ------------------------------------------------------------------- 
  */
 @media only screen and (max-width:768px) {
-	.section- {
+	.section-intro {
 		max-width: 650px;
 	}
-	.section- h1 {
+	.section-intro h1 {
 		font-size: 3rem;
 	}
 }
 @media only screen and (max-width:600px) {
-	.section- h1 {
+	.section-intro h1 {
 		font-size: 2.6rem;
 	}
-	.section- h5 {
+	.section-intro h5 {
 		font-size: 1.5rem;
 		letter-spacing: .3rem;
 	}
 }
 @media only screen and (max-width:400px) {
-	.section- h1 {
+	.section-intro h1 {
 		font-size: 2.4rem;
 	}
 }
@@ -1369,12 +1369,12 @@ header .top-bar {
 
 /** 
  * ===================================================================
- * 10.  - (_layout.scss) 
+ * 10. intro - (_layout.scss) 
  *
  * ------------------------------------------------------------------- 
  */
-# {
-	background: #151515 url(../images/-bg.jpg) no-repeat center bottom;
+#intro {
+	background: #151515 url(../images/intro-bg.jpg) no-repeat center bottom;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
@@ -1386,7 +1386,7 @@ header .top-bar {
 	position: relative;
 	text-align: center;
 }
-.-overlay {
+.intro-overlay {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -1396,7 +1396,7 @@ header .top-bar {
 	opacity: .85;
 }
 
-.-content {
+.intro-content {
 	display: table-cell;
 	vertical-align: middle;
 	text-align: center;
@@ -1404,7 +1404,7 @@ header .top-bar {
 	-ms-transform: translateY(-2.1rem);
 	transform: translateY(-2.1rem);
 }
-.-content h1 {
+.intro-content h1 {
 	color: #FFFFFF;
 	font-family: "poppins-medium", sans-serif;
 	font-size: 8.4rem;
@@ -1416,7 +1416,7 @@ header .top-bar {
 	margin-right: auto;
 	text-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
-.-content h5 {
+.intro-content h5 {
 	color: #cc005f;
 	font-family: "poppins-bold", sans-serif;
 	font-size: 2.3rem;
@@ -1426,7 +1426,7 @@ header .top-bar {
 	letter-spacing: .3rem;
 	text-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
 }
-.-content .-position {
+.intro-content .intro-position {
 	font-family: "lora-regular", serif;
 	font-size: 1.7rem;
 	line-height: 2.4rem;
@@ -1435,24 +1435,24 @@ header .top-bar {
 	color: #FFFFFF;
 	text-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
 }
-.-content .-position span {
+.intro-content .intro-position span {
 	display: inline-block;
 }
-.-content .-position span::after {
+.intro-content .intro-position span::after {
 	content: "|";
 	text-align: center;
 	display: inline-block;
 	padding: 0 8px 0 14px;
 	color: rgba(255, 255, 255, 0.3);
 }
-.-content .-position span:first-child::before {
+.intro-content .intro-position span:first-child::before {
 	content: "|";
 	text-align: center;
 	display: inline-block;
 	padding: 0 14px 0 8px;
 	color: rgba(255, 255, 255, 0.3);
 }
-.-content .button {
+.intro-content .button {
 	color: #FFFFFF !important;
 	border-color: rgba(255, 255, 255, 0.3);
 	height: 6rem !important;
@@ -1463,10 +1463,10 @@ header .top-bar {
 	text-transform: uppercase;
 	letter-spacing: .25rem;
 }
-.-content .button:hover, .-content .button:focus {
+.intro-content .button:hover, .intro-content .button:focus {
 	border-color: #cc005f;
 }
-.-content .button::after {
+.intro-content .button::after {
 	display: inline-block;
 	content: "\f107";
 	font-family: fontAwesome;
@@ -1477,7 +1477,7 @@ header .top-bar {
 	left: 1.2rem;
 }
 
-.-social {
+.intro-social {
 	display: block;
 	position: absolute;
 	width: 100%;
@@ -1487,77 +1487,77 @@ header .top-bar {
 	margin: 0;
 	padding: 0;
 }
-.-social li {
+.intro-social li {
 	display: inline-block;
 	margin: 0 20px;
 	padding: 0;
 }
-.-social li a, .-social li a:visited {
+.intro-social li a, .intro-social li a:visited {
 	color: #FFFFFF;
 }
-.-social li a:hover, .-social li a:focus {
+.intro-social li a:hover, .intro-social li a:focus {
 	color: #cc005f;
 }
 
 /**
  * responsive:
- * 
+ * Intro
  * --------------------------------------------------------------- 
  */
 @media only screen and (max-width:1024px) {
-	.-content h1 {
+	.intro-content h1 {
 		font-size: 7.6rem;
 	}
-	.-social {
+	.intro-social {
 		font-size: 3rem;
 	}
-	.-social li {
+	.intro-social li {
 		margin: 0 15px;
 	}
 }
 @media only screen and (max-width:768px) {
-	# {
+	#intro {
 		min-height: 660px;
 	}
-	.-content h1 {
+	.intro-content h1 {
 		font-size: 5.2rem;
 	}
-	.-content h5 {
+	.intro-content h5 {
 		font-size: 1.8rem;
 	}
-	.-content .-position {
+	.intro-content .intro-position {
 		font-size: 1.3rem;
 	}
-	.-social {
+	.intro-social {
 		font-size: 2.5rem;
 	}
-	.-social li {
+	.intro-social li {
 		margin: 0 10px;
 	}
 }
 @media only screen and (max-width:600px) {
-	# {
+	#intro {
 		min-height: 600px;
 	}
-	.-content h1 {
+	.intro-content h1 {
 		font-size: 4.6rem;
 		margin-bottom: .6rem;
 	}
-	.-content h5 {
+	.intro-content h5 {
 		font-size: 1.5rem;
 		margin-bottom: .3rem;
 		letter-spacing: .2rem;
 	}
-	.-content .-position {
+	.intro-content .intro-position {
 		font-size: 1.2rem;
 	}
-	.-content .-position span {
+	.intro-content .intro-position span {
 		padding: 0 .6rem;
 	}
-	.-content .-position span::before, .-content .-position span::after {
+	.intro-content .intro-position span::before, .intro-content .intro-position span::after {
 		display: none !important;
 	}
-	.-social {
+	.intro-social {
 		font-size: 2.4rem;
 	}
 }
@@ -1574,7 +1574,7 @@ header .top-bar {
 	padding-top: 12rem;
 	padding-bottom: 15rem;
 }
-#about .section- {
+#about .section-intro {
 	margin-bottom: 3rem;
 }
 
@@ -1653,19 +1653,19 @@ header .top-bar {
 	transform: scale(1.05);
 }
 
-.-info {
+.intro-info {
 	margin-top: 4.2rem;
 	margin-right: -30px;
 	margin-left: -30px;
 }
-.-info img {
+.intro-info img {
 	height: 17.5rem;
-	width: 17.5rem;
+	width: 13.5rem;
 	border-radius: 10%;
 	margin: 0rem 0rem 0rem 0rem;
 	float: left;
 }
-.-info .lead {
+.intro-info .lead {
 	text-align: left;
 	padding-left: 18rem;
 }
@@ -1747,17 +1747,17 @@ header .top-bar {
 }
 
 @media only screen and (max-width:1024px) {
-	.-info {
+	.intro-info {
 		margin-right: 0;
 		margin-left: 0;
 	}
 }
 @media only screen and (max-width:768px) {
-	.-info img {
+	.intro-info img {
 		height: 7.8rem;
 		width: 7.8rem;
 	}
-	.-info .lead {
+	.intro-info .lead {
 		padding-left: 11rem;
 	}
 	.about-content h3 {
@@ -1775,17 +1775,17 @@ header .top-bar {
 	}
 }
 @media only screen and (max-width:600px) {
-	.-info {
+	.intro-info {
 		text-align: center;
 		margin-top: 3rem;
 	}
-	.-info img {
+	.intro-info img {
 		height: 6.6rem;
 		width: 6.6rem;
 		float: none;
 		display: inline-block;
 	}
-	.-info .lead {
+	.intro-info .lead {
 		padding-left: 0;
 		text-align: center;
 	}
@@ -2291,17 +2291,17 @@ header .top-bar {
 	opacity: .9;
 }
 
-#services .section- {
+#services .section-intro {
 	margin-bottom: 1.8rem;
 }
 
-#services .section- h1 {
+#services .section-intro h1 {
 	color: white;
 }
-#services .section- h5 {
+#services .section-intro h5 {
 	color: #FF0077;
 }
-#services .section- p {
+#services .section-intro p {
 	color: rgba(255, 255, 255, 0.7);
 }
 .services-content {
@@ -2464,13 +2464,13 @@ header .top-bar {
 	padding-top: 12rem;
 	padding-bottom: 7.2rem;
 }
-#contact .section- h1 {
+#contact .section-intro h1 {
 	color: white;
 }
-#contact .section- h5 {
+#contact .section-intro h5 {
 	color: #FF0077;
 }
-#contact .section- p {
+#contact .section-intro p {
 	color: rgba(255, 255, 255, 0.7);
 }
 
