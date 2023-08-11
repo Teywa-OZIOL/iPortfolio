@@ -1058,7 +1058,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 .grey-section p.lead {
 	color: #7d7d7d;
 }
-.section-intro {
+.section- {
 	max-width: 700px;
 	margin-left: auto;
 	margin-right: auto;
@@ -1066,14 +1066,14 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	margin-bottom: 3.6rem;
 	position: relative;
 }
-.section-intro h1 {
+.section- h1 {
 	font-family: "poppins-semibold", serif;
 	font-size: 3.6rem;
 	color: #313131;
 	line-height: 1.25;
 	margin-bottom: 1.2rem;
 }
-.section-intro h5 {
+.section- h5 {
 	color: #FF0077;
 	font-size: 1.6rem;
 	line-height: 1.875;
@@ -1087,24 +1087,24 @@ button::-moz-focus-inner, input::-moz-focus-inner {
  * ------------------------------------------------------------------- 
  */
 @media only screen and (max-width:768px) {
-	.section-intro {
+	.section- {
 		max-width: 650px;
 	}
-	.section-intro h1 {
+	.section- h1 {
 		font-size: 3rem;
 	}
 }
 @media only screen and (max-width:600px) {
-	.section-intro h1 {
+	.section- h1 {
 		font-size: 2.6rem;
 	}
-	.section-intro h5 {
+	.section- h5 {
 		font-size: 1.5rem;
 		letter-spacing: .3rem;
 	}
 }
 @media only screen and (max-width:400px) {
-	.section-intro h1 {
+	.section- h1 {
 		font-size: 2.4rem;
 	}
 }
@@ -1369,12 +1369,12 @@ header .top-bar {
 
 /** 
  * ===================================================================
- * 10. intro - (_layout.scss) 
+ * 10.  - (_layout.scss) 
  *
  * ------------------------------------------------------------------- 
  */
-#intro {
-	background: #151515 url(../images/intro-bg.jpg) no-repeat center bottom;
+# {
+	background: #151515 url(../images/-bg.jpg) no-repeat center bottom;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
@@ -1386,7 +1386,7 @@ header .top-bar {
 	position: relative;
 	text-align: center;
 }
-.intro-overlay {
+.-overlay {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -1396,7 +1396,7 @@ header .top-bar {
 	opacity: .85;
 }
 
-.intro-content {
+.-content {
 	display: table-cell;
 	vertical-align: middle;
 	text-align: center;
@@ -1404,7 +1404,7 @@ header .top-bar {
 	-ms-transform: translateY(-2.1rem);
 	transform: translateY(-2.1rem);
 }
-.intro-content h1 {
+.-content h1 {
 	color: #FFFFFF;
 	font-family: "poppins-medium", sans-serif;
 	font-size: 8.4rem;
@@ -1416,7 +1416,7 @@ header .top-bar {
 	margin-right: auto;
 	text-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
-.intro-content h5 {
+.-content h5 {
 	color: #cc005f;
 	font-family: "poppins-bold", sans-serif;
 	font-size: 2.3rem;
@@ -1426,7 +1426,7 @@ header .top-bar {
 	letter-spacing: .3rem;
 	text-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
 }
-.intro-content .intro-position {
+.-content .-position {
 	font-family: "lora-regular", serif;
 	font-size: 1.7rem;
 	line-height: 2.4rem;
@@ -1435,24 +1435,24 @@ header .top-bar {
 	color: #FFFFFF;
 	text-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
 }
-.intro-content .intro-position span {
+.-content .-position span {
 	display: inline-block;
 }
-.intro-content .intro-position span::after {
+.-content .-position span::after {
 	content: "|";
 	text-align: center;
 	display: inline-block;
 	padding: 0 8px 0 14px;
 	color: rgba(255, 255, 255, 0.3);
 }
-.intro-content .intro-position span:first-child::before {
+.-content .-position span:first-child::before {
 	content: "|";
 	text-align: center;
 	display: inline-block;
 	padding: 0 14px 0 8px;
 	color: rgba(255, 255, 255, 0.3);
 }
-.intro-content .button {
+.-content .button {
 	color: #FFFFFF !important;
 	border-color: rgba(255, 255, 255, 0.3);
 	height: 6rem !important;
@@ -1463,10 +1463,10 @@ header .top-bar {
 	text-transform: uppercase;
 	letter-spacing: .25rem;
 }
-.intro-content .button:hover, .intro-content .button:focus {
+.-content .button:hover, .-content .button:focus {
 	border-color: #cc005f;
 }
-.intro-content .button::after {
+.-content .button::after {
 	display: inline-block;
 	content: "\f107";
 	font-family: fontAwesome;
@@ -1477,7 +1477,7 @@ header .top-bar {
 	left: 1.2rem;
 }
 
-.intro-social {
+.-social {
 	display: block;
 	position: absolute;
 	width: 100%;
@@ -1487,77 +1487,77 @@ header .top-bar {
 	margin: 0;
 	padding: 0;
 }
-.intro-social li {
+.-social li {
 	display: inline-block;
 	margin: 0 20px;
 	padding: 0;
 }
-.intro-social li a, .intro-social li a:visited {
+.-social li a, .-social li a:visited {
 	color: #FFFFFF;
 }
-.intro-social li a:hover, .intro-social li a:focus {
+.-social li a:hover, .-social li a:focus {
 	color: #cc005f;
 }
 
 /**
  * responsive:
- * Intro
+ * 
  * --------------------------------------------------------------- 
  */
 @media only screen and (max-width:1024px) {
-	.intro-content h1 {
+	.-content h1 {
 		font-size: 7.6rem;
 	}
-	.intro-social {
+	.-social {
 		font-size: 3rem;
 	}
-	.intro-social li {
+	.-social li {
 		margin: 0 15px;
 	}
 }
 @media only screen and (max-width:768px) {
-	#intro {
+	# {
 		min-height: 660px;
 	}
-	.intro-content h1 {
+	.-content h1 {
 		font-size: 5.2rem;
 	}
-	.intro-content h5 {
+	.-content h5 {
 		font-size: 1.8rem;
 	}
-	.intro-content .intro-position {
+	.-content .-position {
 		font-size: 1.3rem;
 	}
-	.intro-social {
+	.-social {
 		font-size: 2.5rem;
 	}
-	.intro-social li {
+	.-social li {
 		margin: 0 10px;
 	}
 }
 @media only screen and (max-width:600px) {
-	#intro {
+	# {
 		min-height: 600px;
 	}
-	.intro-content h1 {
+	.-content h1 {
 		font-size: 4.6rem;
 		margin-bottom: .6rem;
 	}
-	.intro-content h5 {
+	.-content h5 {
 		font-size: 1.5rem;
 		margin-bottom: .3rem;
 		letter-spacing: .2rem;
 	}
-	.intro-content .intro-position {
+	.-content .-position {
 		font-size: 1.2rem;
 	}
-	.intro-content .intro-position span {
+	.-content .-position span {
 		padding: 0 .6rem;
 	}
-	.intro-content .intro-position span::before, .intro-content .intro-position span::after {
+	.-content .-position span::before, .-content .-position span::after {
 		display: none !important;
 	}
-	.intro-social {
+	.-social {
 		font-size: 2.4rem;
 	}
 }
@@ -1574,7 +1574,7 @@ header .top-bar {
 	padding-top: 12rem;
 	padding-bottom: 15rem;
 }
-#about .section-intro {
+#about .section- {
 	margin-bottom: 3rem;
 }
 
@@ -1653,21 +1653,21 @@ header .top-bar {
 	transform: scale(1.05);
 }
 
-.intro-info {
+.-info {
 	margin-top: 4.2rem;
 	margin-right: -30px;
 	margin-left: -30px;
 }
-.intro-info img {
+.-info img {
 	height: 17.5rem;
 	width: 17.5rem;
 	border-radius: 10%;
 	margin: 0rem 0rem 0rem 0rem;
 	float: left;
 }
-.intro-info .lead {
+.-info .lead {
 	text-align: left;
-	padding-left: 18rem;
+	padding-left: 10rem;
 }
 
 .about-content {
@@ -1747,17 +1747,17 @@ header .top-bar {
 }
 
 @media only screen and (max-width:1024px) {
-	.intro-info {
+	.-info {
 		margin-right: 0;
 		margin-left: 0;
 	}
 }
 @media only screen and (max-width:768px) {
-	.intro-info img {
+	.-info img {
 		height: 7.8rem;
 		width: 7.8rem;
 	}
-	.intro-info .lead {
+	.-info .lead {
 		padding-left: 11rem;
 	}
 	.about-content h3 {
@@ -1775,17 +1775,17 @@ header .top-bar {
 	}
 }
 @media only screen and (max-width:600px) {
-	.intro-info {
+	.-info {
 		text-align: center;
 		margin-top: 3rem;
 	}
-	.intro-info img {
+	.-info img {
 		height: 6.6rem;
 		width: 6.6rem;
 		float: none;
 		display: inline-block;
 	}
-	.intro-info .lead {
+	.-info .lead {
 		padding-left: 0;
 		text-align: center;
 	}
@@ -2291,17 +2291,17 @@ header .top-bar {
 	opacity: .9;
 }
 
-#services .section-intro {
+#services .section- {
 	margin-bottom: 1.8rem;
 }
 
-#services .section-intro h1 {
+#services .section- h1 {
 	color: white;
 }
-#services .section-intro h5 {
+#services .section- h5 {
 	color: #FF0077;
 }
-#services .section-intro p {
+#services .section- p {
 	color: rgba(255, 255, 255, 0.7);
 }
 .services-content {
@@ -2464,13 +2464,13 @@ header .top-bar {
 	padding-top: 12rem;
 	padding-bottom: 7.2rem;
 }
-#contact .section-intro h1 {
+#contact .section- h1 {
 	color: white;
 }
-#contact .section-intro h5 {
+#contact .section- h5 {
 	color: #FF0077;
 }
-#contact .section-intro p {
+#contact .section- p {
 	color: rgba(255, 255, 255, 0.7);
 }
 
